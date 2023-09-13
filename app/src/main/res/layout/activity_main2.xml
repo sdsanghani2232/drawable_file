@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SundayWork"
+    android:background="@drawable/img_2">
+
+    <TextView
+        android:id="@+id/kajukatli"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kaju Katli"
+        android:textColor="#FF0000"
+        android:textSize="50sp"
+        android:fontFamily="@raw/blackchaery"
+        android:gravity="center"
+        android:layout_marginTop="40dp"/>
+    <TextView
+        android:id="@+id/ingredient"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="INGREDIENTS"
+        android:textSize="30sp"
+        android:layout_below="@+id/kajukatli"
+        android:layout_marginStart="30dp"
+        android:textColor="#FFFEF9"
+        android:layout_marginTop="15dp"/>
+    <TextView
+        android:id="@+id/list_items"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1)cashews\n2)sugar\n3)water\n4)butter\n5)ghee\n6)coconut oil "
+        android:textSize="20sp"
+        android:layout_below="@+id/ingredient"
+        android:layout_marginStart="30dp"
+        android:textColor="#FDC75B"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@raw/opensans"/>
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/img_3"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="150dp"
+            android:layout_marginStart="230dp"
+            android:layout_marginBottom="250dp"
+            android:layout_marginEnd="40dp"/>
+
+        <ScrollView
+            android:id="@+id/steps"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@+id/list_items"
+            android:layout_marginTop="20dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginBottom="50dp">
+                <TextView
+                    android:id="@+id/s1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1) 1 cup cashews (kaju) in a dry grinder or coffee grinder or blender."
+                    android:textSize="20sp"
+                    android:layout_marginStart="30dp"
+                    android:textColor="#FDC75B"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="10dp"
+                    android:fontFamily="@raw/opensans"/>
+                <TextView
+                    android:id="@+id/s2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2) Grind the kaju to a smooth powder, making sure you don’t over do the grinding process as fat should not release from the cashews."
+                    android:textSize="20sp"
+                    android:layout_marginStart="30dp"
+                    android:textColor="#FDC75B"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="15dp"
+                    android:fontFamily="@raw/opensans"/>
+                <TextView
+                    android:id="@+id/s3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3) Combine ½ cup sugar and 5 tablespoons water in a thick bottomed pan (or kadai or a non-stick pan)."
+                    android:textSize="20sp"
+                    android:layout_marginStart="30dp"
+                    android:textColor="#FDC75B"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="15dp"
+                    android:fontFamily="@raw/opensans"/>
+                <TextView
+                    android:id="@+id/s4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4) Keep on low flame and let the sugar dissolve in the water. There is no consistency in the sugar syrup like one string or two string."
+                    android:textSize="20sp"
+                    android:layout_marginStart="30dp"
+                    android:textColor="#FDC75B"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="15dp"
+                    android:fontFamily="@raw/opensans"/>
+                <TextView
+                    android:id="@+id/s5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5) When the sugar completely dissolves in the water, add the cashew powder."
+                    android:textSize="20sp"
+                    android:layout_marginStart="30dp"
+                    android:textColor="#FDC75B"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="15dp"
+                    android:fontFamily="@raw/opensans"/>
+            </LinearLayout>
+        </ScrollView>
+        <RatingBar
+            android:id="@+id/ratings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/steps"
+            android:layout_centerHorizontal="true"
+            android:progressTint="#ED5525"
+            android:progressBackgroundTint="#F4EBEB"
+            android:layout_marginTop="10dp"/>
+</RelativeLayout>

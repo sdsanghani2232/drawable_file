@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">ActTeost</string>
+    <string name="title_activity_see_data">SeeData</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="bmi_calculator">BMI Calculator</string>
+    <string-array name="magerment_weight">
+        <item>Kg</item>
+        <item>g</item>
+    </string-array>
+    <string-array name="magerment_height_feet">
+        <item>feet</item>
+        <item>inch</item>
+        <item>m</item>
+        <item>cm</item>
+    </string-array>
+    <string-array name="magerment_height_inch">
+        <item>inch</item>
+        <item>feet</item>
+        <item>m</item>
+        <item>cm</item>
+    </string-array>
+    <array name="array">
+        <item>application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</item>
+        <item>text/csv</item>
+        <item>application/vnd.ms-excel</item>
+    </array>
+    <string name="title_activity_volley_demo">VolleyDemo</string>
+    <string name="title_activity_data_save_shared_preferences">DataSave_SharedPreferences</string>
+    <string name="title_activity_data_save_shared_prreference">DataSave_SharedPrreference</string>
+    <string name="title_activity_data_save_shared_peferences">DataSave_SharedPeferences</string>
+</resources>
